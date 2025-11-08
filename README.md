@@ -43,6 +43,7 @@ El modelo está compuesto por tres entidades principales:
 - Un producto puede aparecer en muchas ventas → relación 1:N  
 
 📊 El diagrama ER se encuentra en el notebook como imagen: `Actividad 1/diagramarelacional.png`.
+
 Puedes ver el diagrama completo en dbdiagram.io en este enlace:  
 [ERD TechStore Online S.A.](https://dbdiagram.io/d/modelo-entidad-relacion-ERD_TechStore-Online-S-A-690d69576735e11170aa4e58)
 
@@ -59,8 +60,11 @@ Puedes ver el diagrama completo en dbdiagram.io en este enlace:
 💻 Estructura del repositorio
 
 Actividad_1/
+
 │── Aguirre_Aida_Actividad_1.ipynb # Notebook principal
+
 ├── diagramarelacional.png # Diagrama ER
+
 └── README.md # Este archivo
 
 
