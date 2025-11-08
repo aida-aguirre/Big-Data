@@ -1,10 +1,15 @@
 # Big-Data
 
 Actividad 1 — Big Data
-Autor: Aida Aguirre (Colombia)
+
+Autor: Aida Aguirre (Narño, Antioquia, Colombia)
+
 Materia: Big Data
+
 Institución: I. U. Digital de Antioquia
+
 Docente: Andres Felipe Callejas Jaramillo
+
 Plataforma utilizada: Databricks Free Edition (SQLite + Jupyter Notebook)
 
 ---
