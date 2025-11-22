@@ -1,6 +1,6 @@
 # Big-Data TechStore Online S.A.
 
-# Evidencia de Aprendizaje 1 - Creación de una base de datos analítica
+# 🟦 Evidencia de Aprendizaje 1 - Creación de una base de datos analítica
 
 Autor: Aida Aguirre (Narño, Antioquia, Colombia)
 
@@ -14,14 +14,14 @@ Plataforma utilizada: Databricks Free Edition (SQLite + Jupyter Notebook)
 
 ---
 
-🧠 Descripción del proyecto
+## 🧠 Descripción del proyecto
 Este proyecto aplica los principios de Big Data para diseñar y gestionar una base de datos analítica enfocada en las ventas de una tienda online.  
 Se trabajó con el dataset **“An Online Shop Business”**, realizando limpieza de datos, modelado entidad–relación, creación de la base de datos en SQLite y consultas SQL para evidenciar la correcta migración y organización de la información.  
 El sistema permite analizar comportamiento de clientes, ventas por producto y tendencias geográficas, contribuyendo a decisiones basadas en datos.
 
 ---
 
-📦 Dataset utilizado
+## 📦 Dataset utilizado
 - Fuente: [Kaggle — An Online Shop Business](https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)  
 - Autor: Gabriel Ramos  
 - Descripción: Contiene información de transacciones de clientes, productos vendidos, cantidades, precios y países de los clientes.
@@ -31,7 +31,7 @@ Columnas principales:
 
 ---
 
-🧩 Modelo Entidad–Relación (ERD)
+## 🧩 Modelo Entidad–Relación (ERD)
 El modelo está compuesto por tres entidades principales:
 
 **Customer** — almacena información de los clientes (`customer_id`, `country`)  
@@ -42,7 +42,7 @@ El modelo está compuesto por tres entidades principales:
 - Un cliente puede realizar muchas ventas → relación 1:N  
 - Un producto puede aparecer en muchas ventas → relación 1:N  
 
-📊 El diagrama ER 
+## 📊 El diagrama ER 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/Actividad%201/diagramarelacional.png" 
@@ -64,7 +64,7 @@ Puedes ver el diagrama completo en dbdiagram.io en este enlace:
 
 ---
 
-💻 Estructura del repositorio
+## 📂 Estructura del repositorio
 
 Actividad_1/
 
@@ -77,7 +77,7 @@ Actividad_1/
 
 ---
 
-📘 Contenido del Notebook
+## 📘 Contenido del Notebook
 El notebook contiene las siguientes secciones:
 
 1️⃣ Definición de la problemática y dataset  
@@ -127,6 +127,7 @@ Incluye los siguientes archivos:
        alt="Diagrama simple Actividad 2" 
        width="600"/>
 </p>
+
 - **comparativo.png** — Tabla comparativa SQL vs Spark  
 <p align="center">
   <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/actividad2/comparativo.png" 
@@ -169,12 +170,12 @@ actividad2/
 
 ---
 
-🔗 Enlace del repositorio
+## 🔗 Enlace del repositorio
 👉 https://github.com/aida-aguirre/Big-Data
 
 ---
 
-✨ Créditos
+## ✨ Créditos
 Proyecto elaborado como parte de la formación en **Big Data** en la  
 **I. U. Digital de Antioquia**, utilizando:
 
