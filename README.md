@@ -42,7 +42,7 @@ El modelo está compuesto por tres entidades principales:
 - Un cliente puede realizar muchas ventas → relación 1:N  
 - Un producto puede aparecer en muchas ventas → relación 1:N  
 
-📊 El diagrama ER se encuentra en el notebook como imagen: `Actividad 1/diagramarelacional.png`.
+📊 El diagrama ER 
 
 Puedes ver el diagrama completo en dbdiagram.io en este enlace:  
 [ERD TechStore Online S.A.](https://dbdiagram.io/d/modelo-entidad-relacion-ERD_TechStore-Online-S-A-690d69576735e11170aa4e58)
@@ -81,6 +81,85 @@ El notebook contiene las siguientes secciones:
 
 Cada sección incluye explicaciones en texto y resultados de código ejecutable.
 
+
+---
+
+# 🟦 Actividad 2 — Procesamiento de datos en Databricks (Cloud)
+
+## 🚀 Objetivo
+
+Implementar procesamiento de datos en entorno cloud utilizando Databricks, realizando:
+
+- Diseño del esquema del dataset  
+- Creación del DDL en Spark SQL  
+- Configuración del entorno en Databricks  
+- Ingesta de datos desde Kaggle  
+- Creación de tabla en Spark  
+- Validaciones con SQL y PySpark  
+- Comparativo SQL vs Spark  
+
+---
+
+## 📂 Contenido de la Actividad 2
+
+Carpeta: **actividad2**
+
+Incluye los siguientes archivos:
+
+- **Aguirre_Aida_Actividad_2.ipynb**  
+  - Diseño del esquema  
+  - Cargar dataset desde Kaggle  
+  - Crear tabla en Spark  
+  - Validaciones (SELECT, GROUP BY, DESCRIBE)  
+  - Comparación SQL vs Spark  
+
+- **DDL_spark_SQL.sql** — Sentencias DDL del esquema  
+- **DiagramaSimple.png** — Representación visual del modelo  
+- **comparativo.png** — Tabla comparativa SQL vs Spark  
+
+---
+
+## 📊 Validaciones realizadas en Databricks
+
+### 🔹 En PySpark
+- `df.printSchema()`  
+- `df.describe().show()`  
+- `df.groupBy(...).count()`  
+- Lectura y persistencia de tabla con Spark SQL  
+
+### 🔹 En SQL  
+- `DESCRIBE TABLE`  
+- `SELECT` y filtros  
+- `GROUP BY`  
+- `SHOW CREATE TABLE`  
+
+Esto permitió validar la correcta ingesta, estructura y consistencia del dataset en el entorno cloud.
+
+---
+
+## 🆚 Comparativo SQL vs PySpark
+
+| SQL | PySpark |
+|------|---------|
+| Fácil de aprender | Escalable para grandes volúmenes |
+| Ideal para análisis rápidos | Soporta UDFs y pipelines complejos |
+| Integración con herramientas BI | API rica (MLlib, DataFrames, streaming) |
+| Declarativo | Requiere más conocimiento técnico |
+
+---
+
+## 📂 Estructura del repositorio — Actividad 2
+
+actividad2/
+
+│── Aguirre_Aida_Actividad_2.ipynb
+
+│── DDL_spark_SQL.sql
+
+│── DiagramaSimple.png
+
+└── comparativo.png
+
 ---
 
 🔗 Enlace del repositorio
@@ -89,4 +168,11 @@ Cada sección incluye explicaciones en texto y resultados de código ejecutable.
 ---
 
 ✨ Créditos
-Proyecto elaborado como parte de la formación en Big Data, utilizando herramientas open source y datos públicos de Kaggle.
+Proyecto elaborado como parte de la formación en **Big Data** en la  
+**I. U. Digital de Antioquia**, utilizando:
+
+- Databricks Free Edition  
+- Kaggle Datasets  
+- Python + PySpark  
+- SQL y Spark SQL  
+- Jupyter Notebooks  
