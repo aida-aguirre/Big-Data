@@ -47,7 +47,7 @@ El modelo está compuesto por tres entidades principales:
 <p align="center">
   <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/Actividad%201/diagramarelacional.png" 
        alt="ERD Actividad 1" 
-       width="600"/>
+       width="800"/>
 </p>
 
 
@@ -97,7 +97,7 @@ Cada sección incluye explicaciones en texto y resultados de código ejecutable.
 
 Implementar procesamiento de datos en entorno cloud utilizando Databricks, realizando:
 
-- Diseño del esquema del dataset  
+- Diseño del esquema del dataset 
 - Creación del DDL en Spark SQL  
 - Configuración del entorno en Databricks  
 - Ingesta de datos desde Kaggle  
@@ -121,8 +121,19 @@ Incluye los siguientes archivos:
   - Comparación SQL vs Spark  
 
 - **DDL_spark_SQL.sql** — Sentencias DDL del esquema  
-- **DiagramaSimple.png** — Representación visual del modelo  
+- **DiagramaSimple.png** — Representación visual del modelo
+    <p align="center">
+  <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/actividad2/DiagramaSimple.png" 
+       alt="Diagrama simple Actividad 2" 
+       width="600"/>
+</p>
 - **comparativo.png** — Tabla comparativa SQL vs Spark  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/actividad2/comparativo.png" 
+       alt="Comparativo SQL vs Spark" 
+       width="600"/>
+</p>
+
 
 ---
 
@@ -141,17 +152,6 @@ Incluye los siguientes archivos:
 - `SHOW CREATE TABLE`  
 
 Esto permitió validar la correcta ingesta, estructura y consistencia del dataset en el entorno cloud.
-
----
-
-## 🆚 Comparativo SQL vs PySpark
-
-| SQL | PySpark |
-|------|---------|
-| Fácil de aprender | Escalable para grandes volúmenes |
-| Ideal para análisis rápidos | Soporta UDFs y pipelines complejos |
-| Integración con herramientas BI | API rica (MLlib, DataFrames, streaming) |
-| Declarativo | Requiere más conocimiento técnico |
 
 ---
 
