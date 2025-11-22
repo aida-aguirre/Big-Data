@@ -1,6 +1,6 @@
-# Big-Data
+# Big-Data TechStore Online S.A.
 
-Actividad 1 — Big Data
+# Evidencia de Aprendizaje 1 - Creación de una base de datos analítica
 
 Autor: Aida Aguirre (Narño, Antioquia, Colombia)
 
@@ -43,6 +43,13 @@ El modelo está compuesto por tres entidades principales:
 - Un producto puede aparecer en muchas ventas → relación 1:N  
 
 📊 El diagrama ER 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aida-aguirre/Big-Data/main/Actividad%201/diagramarelacional.png" 
+       alt="ERD Actividad 1" 
+       width="600"/>
+</p>
+
 
 Puedes ver el diagrama completo en dbdiagram.io en este enlace:  
 [ERD TechStore Online S.A.](https://dbdiagram.io/d/modelo-entidad-relacion-ERD_TechStore-Online-S-A-690d69576735e11170aa4e58)
