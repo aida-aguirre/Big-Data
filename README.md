@@ -170,6 +170,75 @@ actividad2/
 
 ---
 
+# 📊 Proyecto Integrador: Análisis de Ventas de una Tienda Online (Actividad 3)
+
+Este repositorio contiene la **Evidencia de Aprendizaje 3** del Proyecto Integrador.  
+El objetivo es **transformar, limpiar y visualizar** los datos de un dataset de ventas online utilizando **Databricks (PySpark)** y librerías de Python para obtener insights claros y accionables.
+
+---
+
+## 👥 realizado por:
+- Aida Luz Aguirre   
+
+---
+
+**Descripción:** Información de transacciones de clientes, productos vendidos, cantidades, precios y países de los clientes.
+
+**Columnas clave:**  
+- `producto_limpio` → Nombre del producto normalizado  
+- `pais_limpio` → País del cliente  
+- `precio_limpio` y `cantidad_limpia`  
+- `monto` → Precio × Cantidad  
+- `fecha` → Fecha de la transacción  
+- Columnas derivadas: `año`, `mes`, `dia`, `dia_semana`, `nombre_dia`  
+
+---
+
+## 🎯 Objetivos de la Actividad
+- Transformar y limpiar los datos del dataset.  
+- Crear columnas derivadas de fecha para analizar **tendencias y sazonalidad**.  
+- Generar resúmenes mensuales de ventas.  
+- Implementar **evidencia de limpieza antes/después** (trimming, normalización, casteo, imputación, outliers).  
+- Construir **visualizaciones categóricas** con Matplotlib, Seaborn y Plotly Express.  
+- Entregar notebook exportado y **video explicativo**.  
+
+---
+
+## 🔧 Metodología
+1. **Transformación de fechas:**  
+   - Creación de columna `fecha` y derivación de `año`, `mes`, `dia`, `dia_semana` y `nombre_dia` para analizar patrones de ventas.  
+2. **Resumen mensual:**  
+   - Agrupación por `año` y `mes` con conteos, sumas y promedios por producto.  
+3. **Limpieza de datos:**  
+   - Normalización de texto, trimming, casteo, imputación de valores nulos y eliminación de outliers mediante IQR.  
+4. **Visualizaciones:**  
+   - **Matplotlib:** Conteo de transacciones por producto.  
+   - **Seaborn:** Promedio de monto vendido por día de la semana.  
+   - **Plotly Express:** Monto total mensual de los productos más vendidos (interactivo).  
+   - Impresión de montos totales por producto para referencia numérica.  
+
+---
+
+## 📊 Hallazgos Clave
+- 💰 **Concentración de ventas:** La mayor parte de los ingresos proviene de unos pocos productos.  
+- 📈 **Tendencias mensuales:** Algunos productos muestran picos de venta en meses específicos.  
+- 📅 **Comportamiento diario:** El monto promedio por día se mantiene estable, con ligeras variaciones según el día de la semana.  
+- 🎨 **Visualización interactiva:** Permite comparar productos y meses fácilmente, facilitando decisiones de inventario y marketing.  
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+1. Clona este repositorio.  
+2. Configura un entorno con soporte para **PySpark** (Databricks, Colab o local).  
+3. Carga el dataset en tu sistema de archivos o DBFS.  
+4. Ejecuta el notebook: `apellido_nombre_Actividad_3.ipynb`.  
+5. Mira el video explicativo: `video_explicativo.mp4`.  
+
+---
+
+> ✅ Proyecto realizado como parte de la **Evidencia de Aprendizaje 3** del curso de Big Data.  
+
+--
 ## 🔗 Enlace del repositorio
 👉 https://github.com/aida-aguirre/Big-Data
 
@@ -177,10 +246,18 @@ actividad2/
 
 ## ✨ Créditos
 Proyecto elaborado como parte de la formación en **Big Data** en la  
-**I. U. Digital de Antioquia**, utilizando:
+**I. U. Digital de Antioquia**.
+
+## 🛠️ Tecnologías Utilizadas
 
 - Databricks Free Edition  
 - Kaggle Datasets  
 - Python + PySpark  
 - SQL y Spark SQL  
 - Jupyter Notebooks  
+
+- **Lenguaje:** Python  
+- **Procesamiento Big Data:** Apache Spark (PySpark)  
+- **Manipulación de Datos:** Pandas  
+- **Visualización:** Matplotlib, Seaborn, Plotly Express  
+- **Entorno:** Databricks / Jupyter Notebook 
